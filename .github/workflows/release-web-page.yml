@@ -1,11 +1,11 @@
-name: Release API docs
+name: Release web page
 on:
   push:
     branches:
       - next-version
 
 jobs:
-  release_apidocs:
+  release_webpage:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout current repository
